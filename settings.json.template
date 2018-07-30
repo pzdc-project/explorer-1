@@ -19,6 +19,7 @@
   //  Options:
   //    bitcoin = Default Bitcoin/Dash/... clones
   //    ripple = Ripple clones
+  //    pivx = PIVX clones
   "baseType": "bitcoin",
 
   // The epoch time for a ripple based coin.
@@ -150,7 +151,8 @@
   // Coin info page
   "coininfo": {
     "basic_info_links": [
-      ["Github", "http://github.com/"]
+      ["Github", "http://github.com/"],
+      ["Announcment", "https://bitcointalk.org/"]
     ],
     "masternode_required": 1000,
     "block_time_sec": 120,
